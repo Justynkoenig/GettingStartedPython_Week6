@@ -10,6 +10,8 @@
     - If running Python in a script, variable values can be printed by using the `print()` funtion - `print(myFloat)`.
     - Define myInt and myFloat as above. Now calculate `myInt / myFloat`. What type of number is the result?
     - Now try `float(myInt)` and `int(myFloat)`. What are the results? Look back at the values of `myInt` and `myFloat`. Have they changed?
+    - # puts one variable function into another - 1st one makes a float out of an integer 
+    - 
     - Changing numbers from one type to another is one form of "type casting".
 
 - Strings - `myStr = "This is a string."`
@@ -20,7 +22,9 @@
       - `myStr[0]`
       - A range of indices can be defined with a colon
       - `myStr[2:5]`
+      - # 2:5 means 2 3 4 5 (5 is the cutoff so it is not included) speace is included 'is ' 
     - Strings can be concatenated together with the `+` operator.
+    - # count in reverse = use a negatice number. so negatvie one is the first character at the end.
       - `myStr = "biology"`
       - `newString = myStr + "_is_super_interesting"`
       - `newString`
@@ -33,6 +37,8 @@
     - In Python, the value of a Boolean can be reversed by preceding it with `not`.
 
 ## Functions
+touples = collection of things inside a parentheses - cannot be changed - can be returned as outputs from functions 
+
 
 - Functions are the verbs of a programming language
 - Functions take some variables or objects as input (arguments) and either do something with them or return a new variable/object.
@@ -58,9 +64,13 @@
     - `myStr.strip()` - Removes whitespace from the beginning or ending of the string
     - Methods can also be chained! - `myStr.strip().lower()`
     - `myStr.replace("y","ical")` - This method functions like find and replace, where the first argument is the text to find and the second argument is the text to use when replacing.
+    - # IMPORTANT - can be used to replace single nucleotides - neeed to store new output in a new variable - Mynuc = Mynuc......
+    - # can use join to join or concatanate two strings together - possibly?????
+    - 
     - `myStr.split("O")` - Breaks up the string, using the character provided as an argument as the delimiter. This method then returns a list of new strings. We'll talk more about lists later.
 
 ## Comments in Python
+# IMPORTANT - lists are surrounded by [ ] and can be changed 
 
 - Just like with bash, comments are essential in Python.
 - Comments are included in Python by putting a `#` at the beginning of a line.
